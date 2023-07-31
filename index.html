@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css" integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mdxr - Portfolio</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <nav>
+            <h1 class="logo">mdxr</h1>
+            <div class="hamburger" id="ham-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="" id="ham-menu">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <div class="visual">
+                <img src="media/me.png" alt="">
+            </div>
+            <div class="info">
+                <p>Mudasser Khan</p>
+                <h1>Creative Designer & Developer</h1>
+                <br>
+                <a href="#contact" class="button">Say Hellow</a>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h1 class="title">Stuff I've made so far...</h1>
+            <div class="projects-container">
+                
+                <div class="project" id="bf">
+                    <a href="https://mdxr.github.io/bot_forge" target = "_blank">
+                        <div class="visual">
+                            <img src="media/logo.png" alt="botforge logo">
+                        </div>
+                        <div class="info">
+                            <h2>BotForge</h2>
+                            <p>Botforge is a simple single page landing page with multiple sections.</p>
+                        </div>
+                    </a>
+                </div>
+        
+                <div class="project" id="bm" >
+                    <a href="https://mdxr.github.io/bookmark" target = "_blank">
+                    <div class="visual">
+                        <img src="media/logo-bookmark.svg" style="filter: invert(0) brightness(100);" alt="botforge logo">
+                    </div>
+                    <div class="info">
+                        <h2>Bookmark</h2>
+                        <p>A single page landing page with dynamic tabs & unique form validation.</p>
+                    </div></a>
+                </div>
+                <div class="project" id="mc">
+                    <a href="https://mdxr.github.io/musicloud" target = "_blank">
+
+                        <div class="visual">
+                            <h1>Musicloud</h1>
+                        </div>
+                        <div class="info">
+                            <h2>Musicloud</h2>
+                            <p>A Music Application Landing page with Cards, Forms & Authentication Links.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project" id="psc">
+                    <a href="https://mdxr.github.io/pakistan-space-community" target = "_blank">
+
+                        <div class="visual">
+                            <img src="media/c(1).svg" style="width: 50%;">
+                        </div>
+                        <div class="info">
+                            <h2>PSC</h2>
+                            <p>Psc is a commnity website with about, project and link cards.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h1 class="title">About me</h1>
+            <div class="about-card">
+                <img src="media/me.png" class="me" alt="My Potrait">
+                
+                <div class="info">
+                    <div class="bio">
+                        <h1>Mudasser Khan</h1>
+                        <p>Web designer & Frontend developer from Pakistan, crafting delightful user interfaces and seamless web experiences. Turning designs into interactive realities with code.</p>
+                    </div>
+                    <div class="stack">
+                        <img src="media/Group 3.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="title">Say Hellow</h1>
+            <div class="contact-card">
+                <div class="links">
+                    <h3 class="title-small">Social Links</h3>
+                    <a href="https://www.linkedin.com/in/mudasser-khan-871270247" target="_blank" class="link"><i class="fa-brands fa-linkedin"></i> <span class="link-span"> LinkedIn</span></a>
+                    <a href="https://pph.me/mdxr_khan" target="_blank" class="link" style="display: flex; align-items: center; gap: 2px;"><img src="media/peopleperhour-seeklogo.com-ai.svg" style="filter: brightness(1000); opacity: 50%;" width="18px"><span class="link-span"> PeoplePerHour</span></a>
+                    <a href="https://fiverr.com/mdxr_khan" target="_blank" class="link" style="display: flex; align-items: center; gap: 2px;"><img src="media/icons8-fiverr.svg" style="filter: invert(); opacity: 50%;" width="18px"><span class="link-span"> Fiverr</span></a>
+                    <a href="https://instagram.com/mdxr_khan" target="_blank" class="link"><i class="fa-brands fa-instagram"></i> <span class="link-span"> Instagram</span></a>
+                    <!-- <a href="#" class="link"><i class="fa-brands fa-facebook"></i> <span class="link-span"> Facebook</span></a> -->
+                </div>
+                <form action="#">
+                    <div style="display: flex; align-items: center; gap: 1rem;" class="base-info">
+                        <input type="text" placeholder="Name" id="user-name" required>
+                        <input type="email" placeholder="Email" style="width: 100%;" id="user-email" required>
+                    </div>
+                    <textarea placeholder="Message" style="height: 100%;" id="user-message" required></textarea>
+                    <div>
+                        <button type="submit" class="button" id="submit-btn" onclick="send()">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div>
+                    <h1 class="logo">mdxr</h1>
+                    <p>&copy; Mudasser Khan, all rights reserved</p>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </main>
+    <script src="main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</body>
+</html>

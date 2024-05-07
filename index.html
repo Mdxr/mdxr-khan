@@ -12,7 +12,7 @@
 </head>
 <body>
     <main>
-        <nav>
+        <nav class="navbar">
             <h1 class="logo">mdxr</h1>
             <div class="hamburger" id="ham-icon">
                 <div class="bar"></div>
@@ -21,6 +21,7 @@
             </div>
             <ul class="" id="ham-menu">
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -39,7 +40,18 @@
         <section class="projects" id="projects">
             <h1 class="title">Stuff I've made so far...</h1>
             <div class="projects-container">
-                
+                <div class="project" id="mc">
+                    <a href="https://mdxr.github.io/shifa" target = "_blank">
+
+                        <div class="visual">
+                            <h1>Shifa <br>Healthcare.</h1>
+                        </div>
+                        <div class="info">
+                            <h2>Shifa healthcare</h2>
+                            <p>A Pharmacy Website with Cards, Forms, Links, Tables and more.</p>
+                        </div>
+                    </a>
+                </div>
                 <div class="project" id="bf">
                     <a href="https://mdxr.github.io/bot_forge" target = "_blank">
                         <div class="visual">
@@ -52,7 +64,7 @@
                     </a>
                 </div>
         
-                <div class="project" id="bm" >
+                <!-- <div class="project" id="bm" >
                     <a href="https://mdxr.github.io/bookmark" target = "_blank">
                     <div class="visual">
                         <img src="media/logo-bookmark.svg" style="filter: invert(0) brightness(100);" alt="botforge logo">
@@ -61,7 +73,8 @@
                         <h2>Bookmark</h2>
                         <p>A single page landing page with dynamic tabs & unique form validation.</p>
                     </div></a>
-                </div>
+                </div> -->
+                
                 <div class="project" id="mc">
                     <a href="https://mdxr.github.io/musicloud" target = "_blank">
 
@@ -88,6 +101,60 @@
                 </div>
             </div>
         </section>
+        <section class="projects" id="services">
+            <h1 class="title">Services I offer</h1>
+            <div class="projects-container">
+                <div class="project" id="mc">
+                    <a href="#contact" class="o-option" id="SM branding">
+                        <div class="visual">
+                            <h1>Social media branding</h1>
+                        </div>
+                        <div class="info">
+                            <h2>$3</h2>
+                            <p>A logo, A post template & A banner for any of your social media profiles</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project" id="bf">
+                    <a href="#contact" class="o-option" id="Website">
+                        <div class="visual">
+                            <h1>Website</h1>
+                        </div>
+                        <div class="info">
+                            <div>
+                                <h2>$3</h2>
+                                <p>per page</p>
+                            </div>
+                            <p>A Simple Frontend wesbite for your business or hobby that includes contact forms, links and media.</p>
+                        </div>
+                    </a>
+                </div>                
+                <div class="project" id="mc">
+                    <a href="#contact" class="o-option" id="Landing page">
+
+                        <div class="visual">
+                            <h1>Basic<br>Landing page</h1>
+                        </div>
+                        <div class="info">
+                            <h2>$15</h2>
+                            <p>A Landing page for your business that converts surfers into client, the basic never meant ugly, it just simple</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project" id="psc">
+                    <a href="#contact" class="o-option" id="Landing page">
+
+                        <div class="visual">
+                            <h1>Unique <br>Landing page</h1>
+                        </div>
+                        <div class="info">
+                            <h2>$50</h2>
+                            <p>A uniqully designed eye catchy landing page that can boost your business to next level.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
         <section class="about" id="about">
             <h1 class="title">About me</h1>
             <div class="about-card">
@@ -99,7 +166,7 @@
                         <p>Web designer & Frontend developer from Pakistan, crafting delightful user interfaces and seamless web experiences. Turning designs into interactive realities with code.</p>
                     </div>
                     <div class="stack">
-                        <img src="media/Group 3.svg" alt="">
+                        <img src="media/stack.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -112,6 +179,7 @@
                     <a href="https://www.linkedin.com/in/mudasser-khan-871270247" target="_blank" class="link"><i class="fa-brands fa-linkedin"></i> <span class="link-span"> LinkedIn</span></a>
                     <a href="https://pph.me/mdxr_khan" target="_blank" class="link" style="display: flex; align-items: center; gap: 2px;"><img src="media/peopleperhour-seeklogo.com-ai.svg" style="filter: brightness(1000); opacity: 50%;" width="18px"><span class="link-span"> PeoplePerHour</span></a>
                     <a href="https://fiverr.com/mdxr_khan" target="_blank" class="link" style="display: flex; align-items: center; gap: 2px;"><img src="media/icons8-fiverr.svg" style="filter: invert(); opacity: 50%;" width="18px"><span class="link-span"> Fiverr</span></a>
+                    <a href="https://www.freelancer.com/u/brownboisixnine" target="_blank" class="link" style="display: flex; align-items: center; gap: 2px;"><img src="media/freelancer-1.svg" style="filter: brightness(1000%); opacity: 50%;" width="18px"><span class="link-span"> Freelancer</span></a>
                     <a href="https://instagram.com/mdxr_khan" target="_blank" class="link"><i class="fa-brands fa-instagram"></i> <span class="link-span"> Instagram</span></a>
                     <!-- <a href="#" class="link"><i class="fa-brands fa-facebook"></i> <span class="link-span"> Facebook</span></a> -->
                 </div>
@@ -121,7 +189,18 @@
                         <input type="email" placeholder="Email" style="width: 100%;" id="user-email" required>
                     </div>
                     <textarea placeholder="Message" style="height: 100%;" id="user-message" required></textarea>
-                    <div>
+                    <div class="lower-form">
+                        <!-- <input type="text" placeholder=">" disabled> -->
+                        <div class="selector">
+                            <p class="d-option">Just a talk</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+                            <div class="selector-menu">
+                                <p class="s-option">Just a talk</p>
+                                <p class="s-option">SM Branding</p>
+                                <p class="s-option">Website</p>
+                                <p class="s-option">Landing page</p>
+                            </div>
+                        </div>
                         <button type="submit" class="button" id="submit-btn" onclick="send()">Send</button>
                     </div>
                 </form>
@@ -131,11 +210,12 @@
             <nav>
                 <div>
                     <h1 class="logo">mdxr</h1>
-                    <p>&copy; Mudasser Khan, all rights reserved</p>
+                    <p>&copy; Mudasser Khan, All rights reserved</p>
                 </div>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
                     <li><a href="#about">About</a></li>
                 </ul>
             </nav>

@@ -8,6 +8,25 @@
   list-style: none;
   color: var(--grey-2);
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--black); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--border); 
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 html {
   scroll-behavior: smooth;
 }

@@ -31,7 +31,7 @@ function send() {
   let userName = document.getElementById("user-name").value;
   let userEmail = document.getElementById("user-email").value;
   let userMessage = document.getElementById("user-message").value;
-  let service = dOption.value;
+  let service = dOption.textContent;
   let body =
     "<h1>" + userName + "</h1> <br/> <span style='color:blue;'>" + userEmail + "</span> <br/>"+ service + "<br/>" + userMessage;
 

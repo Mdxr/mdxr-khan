@@ -443,6 +443,19 @@ footer nav {
     display: flex;
     z-index: 5;
   }
+  .hamburger .bar{
+    transition: .2s ease-in-out;
+  }
+  .hamburger.active .bar:nth-child(1){
+    /* transform: rotate(25deg); */
+    transform: rotate(25deg) translateY(.4rem);
+  }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: rotate(-25deg) translateY(-.4rem);
+  }
   .navbar {
     position: relative;
   }

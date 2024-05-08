@@ -7,8 +7,7 @@ const sOptions = document.querySelectorAll(".s-option");
 const oOptions = document.querySelectorAll(".o-option");
 
 selector.addEventListener('click', () => {
-  selector.classList.toggle('active');
-  hamIcon.classList.toggle('active');
+  selector.classList.toggle('active');
 })
 
 sOptions.forEach(option => {
@@ -24,6 +23,7 @@ oOptions.forEach(option => {
 
 hamIcon.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
+  hamIcon.classList.toggle('active');
 });
 
 

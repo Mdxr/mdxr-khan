@@ -182,7 +182,7 @@ section .title {
   width: 80%;
   filter: brightness(0) invert();
 }
-#mi h1{
+.projects-container #mi h1{
     font-family: "JetBrains Mono", monospace !important;
 }
 /* services */
